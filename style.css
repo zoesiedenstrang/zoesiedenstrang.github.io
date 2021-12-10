@@ -1,3 +1,84 @@
-h1{
-    color: green;
+body {
+    background-image: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3174&q=80);
 }
+h1 {
+    color:powderblue;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 65px;
+    font-family:monospace
+}
+p {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 20px;
+}
+h3 {
+    font-size: x-large;
+    font: bold;
+}
+ul {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 20px;
+}
+footer {
+    background: whitesmoke;
+    color: black;
+    border-radius: 10px;
+}
+
+.pig {
+    color:deeppink;
+    font: bold;
+    font-size: 23px;
+}
+.title {
+    margin-left: 100px;
+    margin-right: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.head {
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 2px pink;
+    
+}
+#whoops {
+    text-decoration: line-through;
+    text-indent: 10%;
+    color: red;
+}
+#p{
+    text-align: center;
+    border: ridge;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.pig ul {
+    background-color: tomato;
+}
+.title h3{
+    background-color: violet;
+}
+div {
+    width: 300px;
+    border: 10px solid white;
+    padding: 30px;
+    margin: 20px;
+  }
+.image{ 
+    width: 100px;
+    height: 100px;
+    animation-name: image;
+    animation-duration: 4s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+@keyframes image {
+    0% {left:0px;}
+    
+    50% {left: 1000px; }
+   
+    100% {left: 0px; }
+}
+
